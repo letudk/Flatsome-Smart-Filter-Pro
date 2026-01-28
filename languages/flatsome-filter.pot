@@ -1,0 +1,77 @@
+# Copyright (C) 2026 Flatsome Filter
+# This file is distributed under the same license as the Flatsome Filter package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flatsome Filter 1.0.1\n"
+"Report-Msgid-Bugs-To: https://ledaitu.com\n"
+"POT-Creation-Date: 2026-01-28 12:15:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: flatsome-filter.php:93
+msgid "Filter & Sort"
+msgstr ""
+
+#: flatsome-filter.php:98
+msgid "Bộ lọc"
+msgstr ""
+
+#: flatsome-filter.php:107
+msgid "Reset"
+msgstr ""
+
+#: flatsome-filter.php:108
+msgid "Filters"
+msgstr ""
+
+#: flatsome-filter.php:123
+msgid "Phổ biến"
+msgstr ""
+
+#: flatsome-filter.php:124
+msgid "Mới nhất"
+msgstr ""
+
+#: flatsome-filter.php:125
+msgid "Giá thấp -> cao"
+msgstr ""
+
+#: flatsome-filter.php:126
+msgid "Giá cao -> thấp"
+msgstr ""
+
+#: flatsome-filter.php:130
+msgid "Sắp xếp"
+msgstr ""
+
+#: flatsome-filter.php:150
+msgid "Chọn khoảng giá"
+msgstr ""
+
+#: flatsome-filter.php:164
+msgid "Từ "
+msgstr ""
+
+#: flatsome-filter.php:165
+msgid "Dưới "
+msgstr ""
+
+#: flatsome-filter.php:176
+msgid "Khoảng giá"
+msgstr ""
+
+#: flatsome-filter.php:245
+msgid "%d kết quả"
+msgstr ""
+
+#: flatsome-filter.php:255
+msgid "Xóa bộ lọc"
+msgstr ""
+
+#: flatsome-filter.php:409
+msgid "Cài đặt"
+msgstr ""
