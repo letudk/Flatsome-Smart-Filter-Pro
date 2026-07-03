@@ -1,114 +1,176 @@
 # Flatsome Smart Filter Pro
 
-🚀 **High-Performance AJAX Product Filter for WooCommerce (Flatsome Optimized)**  
-A lightning-fast product filtering engine built specifically for WooCommerce stores using the Flatsome theme — delivering instant UX, SEO-friendly URLs, and mobile-first UI for higher conversions.
+🚀 **Plugin lọc sản phẩm AJAX hiệu năng cao dành cho WooCommerce (Tối ưu cho Flatsome)**
 
-🔗 Developed by **Lê Đại Tú** — https://ledaitu.com
+Flatsome Smart Filter Pro là plugin lọc sản phẩm được phát triển chuyên biệt cho các website WooCommerce sử dụng giao diện Flatsome. Plugin mang đến trải nghiệm lọc sản phẩm tức thì bằng AJAX, URL thân thiện với SEO và giao diện tối ưu trên thiết bị di động, giúp tăng trải nghiệm người dùng và cải thiện tỷ lệ chuyển đổi.
 
----
-
-## 🔥 Project Features
-
-- **Instant AJAX Filtering** — Filter products without page reloads
-- **SEO-Friendly Filter URLs** — PushState-powered URLs indexable by search engines
-- **Advanced Filter Types**
-  - WooCommerce native sorting
-  - Custom price ranges
-  - Product attributes (color, size, size, brand, etc.)
-- **Mobile App-like UX**
-  - Horizontal filter chips
-  - Bottom sheet filter panel
-  - Live selected-filter counters
-- **High-Performance Query Engine**
-  - Intelligent `tax_query` & `meta_query` merging
-  - Automatically pushes out-of-stock products to the bottom
-- **Flatsome-Native Compatibility**
-  - No template overrides
-  - Fully compatible with UX Builder, Lazy Load, Quick View
-- **Lightweight Frontend Stack**
-  - Vanilla JavaScript (no jQuery dependency)
-  - Scoped CSS loaded only on archive pages
-- **Developer-Friendly Architecture**
-  - Hookable logic and extensible components
+🔗 Phát triển bởi **Vietsuite** — https://vietsuite.com
 
 ---
 
-## ⚠️ The Challenge
+# 🚀 Tính năng nổi bật
 
-Default WooCommerce filtering causes poor UX and performance issues on Flatsome-powered stores:
+- **Lọc sản phẩm bằng AJAX**
+  - Không tải lại trang
+  - Cập nhật danh sách sản phẩm ngay lập tức
 
-- Full page reloads on every filter
-- Broken lazy load or infinite scroll with generic filter plugins
-- Non-indexable filter URLs (bad for SEO)
-- Heavy JS payloads and inefficient queries
+- **URL thân thiện với SEO**
+  - Sử dụng History API (PushState)
+  - Dễ dàng chia sẻ liên kết đã lọc
+  - Hỗ trợ Google lập chỉ mục
+
+- **Hỗ trợ nhiều loại bộ lọc**
+  - Sắp xếp mặc định của WooCommerce
+  - Khoảng giá tùy chỉnh
+  - Thuộc tính sản phẩm (Màu sắc, Kích thước, Thương hiệu, Chất liệu...)
+
+- **Trải nghiệm Mobile hiện đại**
+  - Bộ lọc dạng Chip
+  - Bottom Sheet Filter
+  - Hiển thị số lượng bộ lọc đã chọn
+
+- **Bộ máy truy vấn tối ưu**
+  - Tối ưu `tax_query`
+  - Tối ưu `meta_query`
+  - Có thể tự động đưa sản phẩm hết hàng xuống cuối danh sách
+
+- **Tương thích hoàn toàn với Flatsome**
+  - Không ghi đè Template
+  - Hoạt động cùng UX Builder
+  - Tương thích Lazy Load
+  - Tương thích Quick View
+
+- **Frontend nhẹ và nhanh**
+  - JavaScript thuần (Không phụ thuộc jQuery)
+  - CSS chỉ tải tại các trang cần sử dụng
+
+- **Dễ mở rộng**
+  - Kiến trúc rõ ràng
+  - Hỗ trợ Hook và Filter cho lập trình viên
 
 ---
 
-## ✅ The Solution
+# ❗ Vấn đề cần giải quyết
 
-**Flatsome Smart Filter Pro** is engineered natively for Flatsome and WooCommerce — not a generic filter plugin.
+Bộ lọc mặc định của WooCommerce hoặc nhiều plugin lọc phổ biến thường gặp các hạn chế:
 
-- Instant AJAX filtering without reloads
-- SEO-safe filter URLs using PushState
-- Mobile-first UX with bottom sheet filters
-- Optimized WooCommerce query engine
-- Zero conflicts with Flatsome UX Builder
+- Mỗi lần lọc đều phải tải lại toàn bộ trang
+- Làm mất trạng thái Lazy Load hoặc Infinite Scroll
+- URL không tối ưu cho SEO
+- JavaScript nặng, ảnh hưởng tốc độ tải trang
+- Dễ xung đột với giao diện Flatsome
 
 ---
 
-## 🛠 Requirements
+# ✅ Giải pháp
 
-| Component | Version |
-|----------|---------|
-| PHP | 8.2+ |
-| WordPress | 6.0+ |
-| WooCommerce | 7.0+ |
+**Flatsome Smart Filter Pro** được xây dựng dành riêng cho WooCommerce kết hợp với giao diện Flatsome, mang lại:
+
+- Lọc AJAX cực nhanh
+- Không tải lại trang
+- URL chuẩn SEO
+- Giao diện tối ưu trên Mobile
+- Hiệu năng cao ngay cả với website có nhiều sản phẩm
+- Tương thích hoàn toàn với hệ sinh thái Flatsome
+
+---
+
+# 🛠 Yêu cầu hệ thống
+
+| Thành phần | Phiên bản |
+|------------|-----------|
+| PHP | 8.2 trở lên |
+| WordPress | 6.0 trở lên |
+| WooCommerce | 7.0 trở lên |
 | Theme | Flatsome |
 
 ---
 
-## 📦 Installation
+# 📦 Cài đặt
 
-1. Upload the plugin to `/wp-content/plugins/flatsome-smart-filter-pro/`
-2. Activate it via **Plugins → Installed Plugins**
-3. Go to **Settings → Flatsome Smart Filter** to configure filters
+1. Tải plugin lên thư mục:
 
----
+```
+/wp-content/plugins/flatsome-smart-filter-pro/
+```
 
-## ⚙️ Configuration
+2. Kích hoạt plugin trong:
 
-- Select product attributes to enable as filters
-- Define custom price ranges
-- Toggle:
-  - PushState URLs
-  - Out-of-stock sorting
-  - Mobile bottom sheet UI
+```
+Plugins → Installed Plugins
+```
 
----
+3. Truy cập:
 
-## 🧠 Technical Highlights
+```
+Cài đặt → Flatsome Smart Filter
+```
 
-- Native WooCommerce query integration
-- Intelligent tax/meta query merging
-- Zero dependency frontend stack
-- Fully extensible via hooks
+để cấu hình plugin.
 
 ---
 
-## 🔐 License
+# ⚙️ Cấu hình
 
-Private commercial plugin — developed exclusively for performance-focused WooCommerce systems.
+Plugin cho phép:
 
----
-
-## 👨‍💻 Author
-
-**Lê Đại Tú**  
-WordPress Engineer & SEO Specialist  
-🌐 https://ledaitu.com
-
-If you need WooCommerce optimization, performance tuning, or custom WordPress development, feel free to reach out.
+- Chọn thuộc tính sản phẩm dùng để lọc
+- Thiết lập khoảng giá
+- Bật/Tắt URL SEO (PushState)
+- Bật/Tắt sắp xếp sản phẩm hết hàng xuống cuối
+- Bật/Tắt giao diện Bottom Sheet trên Mobile
 
 ---
 
-🔥 Built for speed. Designed for conversions.
+# 🧩 Điểm nổi bật về kỹ thuật
+
+- Tích hợp trực tiếp với hệ thống Query của WooCommerce
+- Gộp `tax_query` và `meta_query` thông minh
+- Frontend tối ưu, không phụ thuộc thư viện ngoài
+- Dễ dàng mở rộng thông qua Hooks và Filters
+- Tối ưu hiệu năng cho website có số lượng sản phẩm lớn
+
+---
+
+# 🔒 Giấy phép
+
+Plugin thương mại, được phát triển bởi **Vietsuite** dành cho các dự án WooCommerce yêu cầu hiệu năng cao.
+
+---
+
+# 👨‍💻 Tác giả
+
+**Vietsuite**
+
+Website: https://vietsuite.com
+
+Chuyên phát triển:
+
+- Website doanh nghiệp
+- Website thương mại điện tử
+- Plugin WordPress
+- WooCommerce
+- Hệ thống ERP
+- Web App theo yêu cầu
+- Giải pháp tối ưu hiệu năng và SEO
+
+---
+
+## ❤️ Về dự án
+
+Flatsome Smart Filter Pro được phát triển với mục tiêu mang lại trải nghiệm lọc sản phẩm nhanh, mượt và chuẩn SEO cho các website WooCommerce sử dụng giao diện Flatsome.
+
+Plugin tập trung vào:
+
+- Hiệu năng
+- Trải nghiệm người dùng
+- Khả năng mở rộng
+- Tính ổn định
+- Khả năng tương thích cao
+
+---
+
+**Vietsuite**  
+Website: https://vietsuite.com
+
+> Tăng tốc website • Tối ưu trải nghiệm • Nâng cao tỷ lệ chuyển đổi
